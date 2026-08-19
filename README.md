@@ -8,6 +8,16 @@ diabet recognition
 - Python 3
 - NumPy
 
+## Project Structure
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Matin-python/diabets.git
+```
+
 ## Contributing
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
 
