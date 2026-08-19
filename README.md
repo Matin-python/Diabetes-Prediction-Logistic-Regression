@@ -3,6 +3,11 @@ diabet recognition
 ## Overview
 
 
+## Technologies Used
+
+- Python 3
+- NumPy
+
 ## Contributing
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
 
