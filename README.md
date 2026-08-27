@@ -36,6 +36,34 @@ The project also includes exploratory data analysis using **Seaborn** and **Matp
 * Seaborn
 * Matplotlib
 
+## Dataset
+
+The project uses the **Diabetes dataset** stored in `diabetes2.csv`.
+
+The dataset contains medical diagnostic measurements that are used to predict the `Outcome` of a patient.
+
+The features include:
+
+* Pregnancies
+* Glucose
+* BloodPressure
+* SkinThickness
+* Insulin
+* BMI
+* DiabetesPedigreeFunction
+* Age
+
+The target variable is:
+
+* `Outcome`
+
+where:
+
+```text
+0 = No Diabetes
+1 = Diabetes
+```
+
 ## Project Structure
 
 ## Installation
