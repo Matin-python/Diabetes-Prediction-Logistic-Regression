@@ -15,10 +15,26 @@ A **Logistic Regression** model is trained using the available medical features 
 
 The project also includes exploratory data analysis using **Seaborn** and **Matplotlib** to visualize the target distribution and correlations between features.
 
+## Features
+
+* 🩺 Diabetes prediction using Logistic Regression
+* 🤖 Binary classification
+* 📊 Train/test data splitting
+* 📈 Prediction accuracy evaluation
+* 📉 Mean Squared Error (MSE) calculation
+* 📊 Diabetes outcome distribution visualization
+* 🔥 Feature correlation heatmap
+* 🐼 Dataset handling using Pandas
+* 📚 Beginner-friendly machine learning implementation
+
 ## Technologies Used
 
-- Python 3
-- NumPy
+* Python 3
+* NumPy
+* Pandas
+* Scikit-learn
+* Seaborn
+* Matplotlib
 
 ## Project Structure
 
