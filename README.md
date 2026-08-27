@@ -199,21 +199,15 @@ Mean Squared Error = X.XX
 
 The exact results may vary between runs because the dataset is randomly divided into training and testing sets.
 
-## Installation
+## Screenshots
 
-Clone the repository:
+### Outcome Distribution
 
-```bash
-git clone https://github.com/Matin-python/diabets.git
-```
+![Outcome Distribution](screenshots/outcome_distribution.png)
 
+### Feature Correlation Heatmap
 
-## Dataset
-
-This project uses the **Digits Dataset** from **scikit-learn**, which contains **1,797 handwritten digit samples** represented as **8×8 grayscale images**.
-
-The trained model is also tested on custom digit images stored in the **test dataset** folder.
-
+![Correlation Heatmap](screenshots/correlation_heatmap.png)
 
 ## Contributing
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
