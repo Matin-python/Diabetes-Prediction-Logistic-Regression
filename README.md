@@ -1,7 +1,19 @@
-# Diabetes Prediction using Logistic Regression
+# 🩺 Diabetes Prediction using Logistic Regression
+
+A machine learning classification project that uses **Logistic Regression** to predict whether a patient has diabetes based on medical diagnostic measurements. The project also uses data visualization to explore the distribution of diabetes outcomes and relationships between features.
 
 ## Overview
 
+This project uses the **Diabetes dataset** to build a binary classification model.
+
+The target variable, `Outcome`, indicates whether a patient has diabetes:
+
+* `0` → No diabetes
+* `1` → Diabetes
+
+A **Logistic Regression** model is trained using the available medical features and evaluated on a test set.
+
+The project also includes exploratory data analysis using **Seaborn** and **Matplotlib** to visualize the target distribution and correlations between features.
 
 ## Technologies Used
 
