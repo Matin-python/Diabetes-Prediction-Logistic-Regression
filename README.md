@@ -209,14 +209,31 @@ The exact results may vary between runs because the dataset is randomly divided 
 
 ![Correlation Heatmap](screenshots/correlation_heatmap.png)
 
+## Future Improvements
+
+* 📊 Confusion matrix visualization
+* 📈 Precision, Recall, and F1-score
+* 📋 Classification report
+* 🔧 Feature scaling
+* ⚙️ Hyperparameter tuning
+* 🔀 Stratified train/test splitting
+* 📊 ROC curve and AUC evaluation
+* 🧪 Cross-validation
+* 🤖 Comparison with other classification algorithms
+* 💾 Save and load the trained model
+* 🌐 Deploy the model as a web application
+
 ## Contributing
+
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Author
-Mohammad Reza Bakhshandeh
+
+**Mohammad Reza Bakhshandeh**
 
 Electrical Engineering (Electronics) Graduate
 
