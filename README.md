@@ -64,6 +64,40 @@ where:
 1 = Diabetes
 ```
 
+## Data Visualization
+
+Before training the model, the project performs basic exploratory data analysis.
+
+### Outcome Distribution
+
+A count plot is used to visualize the number of patients in each outcome category.
+
+```python
+sns.countplot(x='Outcome', data=df)
+```
+
+### Feature Correlation
+
+A correlation heatmap is used to examine relationships between the dataset's features.
+
+```python
+sns.heatmap(df.corr(), annot=True)
+```
+
+These visualizations provide a basic understanding of the dataset before training the machine learning model.
+
+## Machine Learning Workflow
+
+1. Load the dataset using Pandas.
+2. Visualize the distribution of diabetes outcomes.
+3. Calculate and visualize feature correlations.
+4. Separate the input features from the target variable.
+5. Split the dataset into training and testing sets.
+6. Train a Logistic Regression classifier.
+7. Predict outcomes for the test dataset.
+8. Calculate prediction accuracy.
+9. Calculate Mean Squared Error.
+
 ## Project Structure
 
 ## Installation
