@@ -98,7 +98,36 @@ These visualizations provide a basic understanding of the dataset before trainin
 8. Calculate prediction accuracy.
 9. Calculate Mean Squared Error.
 
+## Model
+
+The project uses **Logistic Regression** for binary classification.
+
+```python
+reg_logestic = linear_model.LogisticRegression()
+
+reg_logestic.fit(x_train, y_train)
+
+out_pred = reg_logestic.predict(x_test)
+```
+
+Logistic Regression is suitable for this problem because the target variable contains two possible outcomes: `0` or `1`.
+
 ## Project Structure
+
+```text
+Diabetes-Prediction-Logistic-Regression/
+│
+├── screenshots/
+│   ├── outcome_distribution.png
+│   └── correlation_heatmap.png
+│
+├── diabetes_prediction.py
+├── diabetes.csv
+├── diabetes2.csv
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
 
 ## Installation
 
