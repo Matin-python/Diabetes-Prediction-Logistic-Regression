@@ -1,4 +1,4 @@
-# diabet recognition
+# Diabetes Prediction using Logistic Regression
 
 ## Overview
 
