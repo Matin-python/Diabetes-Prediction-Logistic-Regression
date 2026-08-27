@@ -134,6 +134,76 @@ Diabetes-Prediction-Logistic-Regression/
 Clone the repository:
 
 ```bash
+git clone https://github.com/Matin-python/Diabetes-Prediction-Logistic-Regression.git
+```
+
+Move into the project directory:
+
+```bash
+cd Diabetes-Prediction-Logistic-Regression
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+or install them manually:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn
+```
+
+## How to Run
+
+Run the Python script:
+
+```bash
+python diabetes_prediction.py
+```
+
+The program will:
+
+* Load the diabetes dataset.
+* Display the outcome distribution.
+* Display the feature correlation heatmap.
+* Train the Logistic Regression model.
+* Predict diabetes outcomes for the test data.
+* Display the prediction accuracy.
+* Display the Mean Squared Error.
+
+## Evaluation Metrics
+
+The model is evaluated using:
+
+### Accuracy
+
+Accuracy represents the percentage of test samples that were correctly classified.
+
+### Mean Squared Error
+
+Mean Squared Error measures the average squared difference between the predicted and actual values.
+
+For this binary classification problem, **accuracy is the more intuitive primary metric**, while MSE is included as an additional evaluation measure.
+
+## Example Output
+
+```text
+--------------------------------------------------
+Correct Prediction = XX.XX %
+
+Mean Squared Error = X.XX
+--------------------------------------------------
+```
+
+The exact results may vary between runs because the dataset is randomly divided into training and testing sets.
+
+## Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/Matin-python/diabets.git
 ```
 
