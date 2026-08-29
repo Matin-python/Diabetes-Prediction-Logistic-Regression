@@ -1,5 +1,5 @@
-numpy
-tensorflow
-keras 
+numpy 
+pandas 
+scikit-learn 
 matplotlib 
-keras-visualizer
+seaborn
