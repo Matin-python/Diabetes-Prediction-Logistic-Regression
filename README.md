@@ -114,7 +114,7 @@ These visualizations provide a basic understanding of the dataset before trainin
 
 ## Machine Learning Workflow
 
-1. Load the dataset using Pandas.
+1. Load the dataset using Pandas from `diabetes2.csv`.
 2. Visualize the distribution of diabetes outcomes.
 3. Calculate and visualize feature correlations.
 4. Separate the input features from the target variable.
