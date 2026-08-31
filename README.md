@@ -38,9 +38,35 @@ The project also includes exploratory data analysis using **Seaborn** and **Matp
 
 ## Dataset
 
-The project uses the **Diabetes dataset** stored in `diabetes2.csv`.
+The project uses a diabetes dataset originally provided as an Excel/CSV file named `diabetes.csv`.
 
-The dataset contains medical diagnostic measurements that are used to predict the `Outcome` of a patient.
+The original dataset is **not normalized**, so the data is first preprocessed and normalized before being used for machine learning.
+
+After preprocessing and normalization, the resulting dataset is saved as:
+
+```text
+diabetes2.csv
+```
+
+### Dataset Workflow
+
+```text
+diabetes.csv
+     ↓
+Data Preprocessing
+     ↓
+Data Normalization
+     ↓
+diabetes2.csv
+     ↓
+Train/Test Split
+     ↓
+Logistic Regression
+     ↓
+Prediction & Evaluation
+```
+
+The dataset contains medical diagnostic measurements used to predict whether a patient has diabetes.
 
 The features include:
 
