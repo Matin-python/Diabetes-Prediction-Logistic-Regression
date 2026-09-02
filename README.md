@@ -241,13 +241,13 @@ This project is the **Machine Learning implementation** of the diabetes predicti
 
 For a Deep Learning implementation of the same problem, see:
 
-### Diabetes Prediction using Deep Learning
+### 🤖 Diabetes Prediction using Deep Learning
 
 The related project uses an **Artificial Neural Network (ANN)** built with **TensorFlow/Keras** to solve the same binary classification problem.
 
 While this repository uses **Logistic Regression**, the related project explores a neural-network-based approach.
 
-Comparison
+**Comparison**
 
 | Aspect           | Machine Learning      | Deep Learning             |
 | ---------------- | --------------------- | ------------------------- |
