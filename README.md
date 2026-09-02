@@ -249,6 +249,35 @@ The exact results may vary between runs because the dataset is randomly divided 
 * 💾 Save and load the trained model
 * 🌐 Deploy the model as a web application
 
+## Related Project
+
+This project is the **Machine Learning implementation** of the diabetes prediction problem.
+
+For a Deep Learning implementation of the same problem, see:
+
+### Diabetes Prediction using Deep Learning
+
+**Diabetes Prediction using Deep Learning**
+
+https://github.com/Matin-python/Diabetes-prediction-Deep_Learning
+
+The related project uses an **Artificial Neural Network (ANN)** built with **TensorFlow/Keras** to solve the same binary classification problem.
+
+While this repository uses **Logistic Regression**, the related project explores a neural-network-based approach.
+
+### 🆚 Machine Learning vs Deep Learning
+
+| Aspect           | Machine Learning      | Deep Learning             |
+| ---------------- | --------------------- | ------------------------- |
+| Approach         | Logistic Regression   | Artificial Neural Network |
+| Type             | Supervised Learning   | Supervised Learning       |
+| Problem          | Binary Classification | Binary Classification     |
+| Target           | `Outcome`             | `Outcome`                 |
+| Framework        | Scikit-learn          | TensorFlow / Keras        |
+| Model complexity | Relatively simple     | More complex              |
+
+These two repositories demonstrate how different Machine Learning and Deep Learning approaches can be applied to the diabetes prediction problem.
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and submit a pull request.
